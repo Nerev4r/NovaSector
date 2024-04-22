@@ -78,6 +78,32 @@
 		),
 	)
 
+/obj/item/clothing/under/rank/security/peacekeeper/trousers/skirt
+	name = "peacekeeper skirt"
+	desc = "A Peacekeeper-blue skirt, normally used by those aiming to look more 'low-key' than the typical look. Defintiely should pair it with a vest for safety."
+	icon_state = "workskirt_blue"
+	uses_advanced_reskins = TRUE
+	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY|FEMALE_UNIFORM_NO_BREASTS
+	unique_reskin = list(
+		"Blue Variant, Short" = list(
+			RESKIN_ICON_STATE = "workskirt_blue",
+			RESKIN_WORN_ICON_STATE = "workskirt_blue"
+		),
+		"Blue Variant, Short Short" = list(
+			RESKIN_ICON_STATE = "workskirt_blue_short",
+			RESKIN_WORN_ICON_STATE = "workskirt_blue_short"
+		),
+	)
+
+
+/obj/item/clothing/under/rank/security/peacekeeper/skirtleneck
+	name = "peacekeeper skirtleneck"
+	desc = "Tired of having cold arms? Satisfied with having cold legs instead? This Peacekeeper-blue skirt has been augmented with the latest in turtleneck sweater technology; this also serves to make it more armored than standalone skirts."
+	icon_state = "security_skirtleneck_blue"
+	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY|FEMALE_UNIFORM_NO_BREASTS
+
 /*
 *	HEAD OF SECURITY
 */
